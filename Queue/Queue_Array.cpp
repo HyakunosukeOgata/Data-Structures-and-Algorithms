@@ -1,4 +1,5 @@
 #include "Queue_Array.h"
+#include <iostream>
 
 // Double the capacity of the queue when it's full.
 void Queue_Array::Doublecapacity() {
