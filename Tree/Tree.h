@@ -20,8 +20,10 @@ public:
 
     void insertNode(int data); // Function to insert a node
     void deleteNode(int data); // Function to delete a node
-    Tree_Node* minValueNode(Tree_Node* node); // Helper function to find the minimum value node
     bool lookup(int data); // Function to lookup a value
+
+    Tree_Node* minValueNode(Tree_Node* node); // Helper function to find the minimum value node
+    
     void display(); // Function to display the tree
 };
 

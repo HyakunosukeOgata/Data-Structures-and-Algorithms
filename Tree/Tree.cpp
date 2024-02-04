@@ -132,24 +132,3 @@ void BinarySearchTree::display(){
         temp = temp->right;
     }
 }
-
-
-int main()
-{
-    BinarySearchTree b;
-
-    b.insertNode(20);
-    b.insertNode(10);
-    b.insertNode(30);
-    b.insertNode(25);
-    b.insertNode(40);
-    b.insertNode(1);
-
-    b.display();
-    cout << endl;
-
-    b.deleteNode(30);
-    b.display();
-
-    return 0;
-}
